@@ -1,6 +1,6 @@
 {
   "name": "gpg-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "private": true,
   "main": "dist/index.js",
@@ -12,7 +12,8 @@
   "author": "kciepka <krzysztof@ciepka.com>",
   "license": "MIT",
   "dependencies": {
-    "openpgp": "^4.10.0"
+    "openpgp": "^4.10.0",
+    "@types/openpgp": "^4.4.8"
   },
   "devDependencies": {
     "jest": "^25.1.0",
