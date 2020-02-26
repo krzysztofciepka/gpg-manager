@@ -1,0 +1,23 @@
+{
+  "name": "gpg-manager",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "preinstall": "tsc",
+    "test": "jest --verbose dist/tests",
+    "start": "node dist/index.js"
+  },
+  "author": "kciepka <krzysztof@ciepka.com>",
+  "license": "MIT",
+  "dependencies": {
+    "openpgp": "^4.10.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "@types/jest": "^25.1.3",
+    "@types/openpgp": "^4.4.8",
+    "typescript": "^3.8.2"
+  }
+}
